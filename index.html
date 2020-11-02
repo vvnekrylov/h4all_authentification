@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+       <link href="style.css" rel="stylesheet">
+        <title>Страница аутентификации к сайту hunting4all.ru</title>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <div class="container">
+                <h1>Добро пожаловать!</h1>          
+                    <p>Чтобы получить возможность познакомиться с охотхозяйствами, забронировать охотничий тур или купить/продать что-нибудь для
+              охоты, необходимо <em><b>зарегистрироваться!</b></em></p>   
+                <form method="get" action="" enctype="application/x-www-form-urlencoded">
+                    <fieldset>
+                        <legend><i>Введите данные</i></legend>
+                    <p>
+                        <label for="userName">Ваше имя:</label>
+                        <input type="text" autofocus required name="userName" id="userName "placeholder="Введите Ваше имя" size="35"/>
+                    </p>
+                    <p>
+                        <label for="email">Ваш Email:</label>
+                        <input type="email" required name="userEmail" id="email" placeholder="user@gmail.com" size="35"/>
+                    </p>
+                    <p>
+                        <label for="pass">Пароль:</label>
+                        <input type="password" required name="userPass" id="pass" placeholder="Введите пароль" size="35"/>
+                    </p>
+                    <p>
+                        <!--<input style="left: 5pc; font-size: 10px; text-align: left;" type="checkbox" name="aggr"> Я даю свое согласие на обработку персональных данных
+                         и согласен с <a  href="http://hunting4all.ru/web/uploads/docs/hunting4all_%20useagreement.pdf" target="_blank">Политикой конфиденциальности</a></p>
+                    <p>-->   
+                       <button type="submit" formmethod="GET" formaction="">Зарегистрироваться!</button>
+                       <button class="reset" type="reset">Отмена</button>
+                    </p>
+                    </fieldset>
+                </form>    
+            </div>
+        </main>
+        <footer></footer>
+    </body>
+</html>
